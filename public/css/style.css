@@ -1,0 +1,88 @@
+html, body, #root {
+  height: 100%;
+  /* font-size: 20px; */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+footer.page-footer{
+      flex-shrink: 0;
+}
+.hide {
+    display: none;
+}
+
+.navbar {
+    padding: .5rem;
+}
+
+footer {
+    color: #fff;
+}
+
+.text {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+
+.button-list {
+    list-style-type: none;
+}
+
+.button-list li {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.active {
+    color: red;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-header,
+.card-footer {
+    border: none;
+}
+
+.title-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.badge {
+    margin-left: 20px;
+    width: 150px;
+    height: 30px;
+    line-height: inherit;
+}
+
+.row {
+    padding-left: 15px;
+}
